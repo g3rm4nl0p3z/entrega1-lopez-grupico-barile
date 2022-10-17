@@ -17,7 +17,7 @@
 {% block bloque_contenido %}
     <section class="bg-light">
         <div class="container">
-            <form action="" method="POST">
+            <form class="p-3" action="" method="POST">
                 {% csrf_token %}
                 <table class="col-md-5">
                     {{ formulario_empleado.as_table }}
