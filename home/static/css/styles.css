@@ -7888,6 +7888,8 @@ textarea.form-control-lg {
 
 section{
   border-radius: 25px;
+  height: 85%;
+  width: auto;
 
 }
 
@@ -11353,13 +11355,14 @@ header.masthead h1, header.masthead .h1 {
 .testimonials {
   padding-top: 10rem;
   padding-bottom: 20rem;
+  height: 90%;
 }
 .testimonials .testimonial-item {
-  max-width: 30rem;
+  max-width: 50rem;
 }
 .testimonials .testimonial-item img {
-  max-width: 20rem;
-  box-shadow: 0px 5px 5px 0px #adb5bd;
+  max-width: 30rem;
+  box-shadow: 0px 5px 5px 0px black;
 }
 
 .call-to-action {
