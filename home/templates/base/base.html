@@ -21,7 +21,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
             <div class="container">
-                <a class="navbar-brand" href={% url 'home' %}>Entrega intermedia</a>
+                <a class="navbar-brand" href={% url 'home' %}>Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -40,7 +40,13 @@
                         <h1 class="display-4 fst-italic">
                             {% block bloque_h1_header %}
                             {% endblock bloque_h1_header %}
+                    
                         </h1>
+                        <p class="display-4 fst-italic">
+                            {% block bloque_p_header %}
+                            {% endblock bloque_p_header %}
+                    
+                        </p>
                     </div>
                 </div>
             </div>

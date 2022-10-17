@@ -11345,14 +11345,14 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 10rem;
+  padding-bottom: 20rem;
 }
 .testimonials .testimonial-item {
-  max-width: 18rem;
+  max-width: 30rem;
 }
 .testimonials .testimonial-item img {
-  max-width: 12rem;
+  max-width: 20rem;
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 
@@ -11378,4 +11378,8 @@ header.masthead h1, header.masthead .h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.font-weight-light mb-0{
+  padding-bottom: 20rem ;
 }
