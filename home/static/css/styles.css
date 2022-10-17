@@ -145,7 +145,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 
 h6, .h6 {
@@ -154,7 +154,8 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
 }
 
 abbr[title],
@@ -7836,8 +7837,8 @@ textarea.form-control-lg {
 }
 
 .bg-light {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  --bs-bg-opacity: .75;
+  background-color: lightblue !important;
 }
 
 .bg-dark {
@@ -7883,6 +7884,11 @@ textarea.form-control-lg {
 
 .bg-opacity-100 {
   --bs-bg-opacity: 1;
+}
+
+section{
+  border-radius: 25px;
+
 }
 
 .bg-gradient {
