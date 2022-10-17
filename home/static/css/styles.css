@@ -145,13 +145,30 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 h6, .h6 {
   font-size: 1rem;
 }
+a:link {
+  color: #dc3545;
+}
 
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 p {
   margin-top: 0;
   margin-bottom: 2rem;
@@ -7838,7 +7855,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: .75;
-  background-color: lightblue !important;
+  background-color: whitesmoke !important;
 }
 
 .bg-dark {
@@ -7887,10 +7904,7 @@ textarea.form-control-lg {
 }
 
 section{
-  border-radius: 25px;
-  height: 85%;
-  width: auto;
-
+  border-radius: 23px;
 }
 
 .bg-gradient {
