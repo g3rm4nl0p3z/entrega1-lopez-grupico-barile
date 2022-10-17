@@ -1,6 +1,15 @@
 {% extends 'base/base.html' %}
 
+{% block bloque_titulo %}
+    Sobre nosotros
+{% endblock bloque_titulo %}
+
 {% block bloque_nav_items %}
-    <li class="nav-item"><a class="nav-link" href="#!">Empleados</a></li>
-    <li class="nav-item"><a class="nav-link" aria-current="page" href={% url 'about' %}>Sobre nosotros</a></li>
+    <li class="nav-item"><a class="nav-link" href={% url 'home' %}>Inicio</a></li>
+    <li class="nav-item"><a class="nav-link active" href={% url 'about' %}>Sobre nosotros</a></li>
+    <li class="nav-item"><a class="nav-link" href={% url 'ver-empleados' %}>Empleados</a></li>
 {% endblock bloque_nav_items %}
+
+{% block bloque_h1_header %}
+    Sobre nosotros
+{% endblock bloque_h1_header %}
